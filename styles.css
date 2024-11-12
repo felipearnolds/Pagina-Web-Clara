@@ -42,3 +42,9 @@ a {
 body {
     font-family: 'Uncut Sans', sans-serif;
 }
+
+.link-image {
+    width: 150px; /* Ajusta el tamaño según necesites */
+    height: auto;
+    margin-bottom: 10px; /* Espacio entre la imagen y el título */
+}
