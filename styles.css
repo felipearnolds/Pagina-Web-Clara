@@ -48,11 +48,15 @@ body {
     height: auto;
     margin-bottom: 10px; /* Espacio entre la imagen y el título */
 }
+
+
 a {
-    color: #000000; /* Color negro */
+    color: #987598; /* Color negro */
     text-decoration: underline; /* Subraya el enlace */
     font-size: 1.2em;
 }
+
+
 /* Estilos Responsivos para Pantallas Pequeñas */
 @media (max-width: 768px) {
     .container {
