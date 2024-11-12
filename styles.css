@@ -53,3 +53,18 @@ a {
     text-decoration: underline; /* Subraya el enlace */
     font-size: 1.2em;
 }
+/* Estilos Responsivos para Pantallas Pequeñas */
+@media (max-width: 768px) {
+    .container {
+        flex-direction: column; /* Cambia los elementos a una columna en pantallas pequeñas */
+        gap: 15px;
+    }
+
+    .link-image {
+        width: 100px; /* Tamaño de imagen más pequeño en móviles */
+    }
+
+    a {
+        font-size: 1em; /* Tamaño de fuente del enlace más pequeño en móviles */
+    }
+}
