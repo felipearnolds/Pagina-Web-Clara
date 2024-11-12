@@ -51,7 +51,7 @@ body {
 
 
 a {
-    color: #987598; /* Color negro */
+    color: #000000; /* Color negro */
     text-decoration: underline; /* Subraya el enlace */
     font-size: 1.2em;
 }
