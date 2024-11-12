@@ -1,0 +1,44 @@
+/* Fondo blanco y letras negras */
+body {
+    background-color: #ffffff;
+    color: #000000;
+    font-family: 'Uncut Sans', sans-serif; /* Asegúrate de cargar la fuente */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.container {
+    display: flex;
+    gap: 200px;
+}
+
+/* Estilo para cada contenedor de QR */
+.qr-container {
+    text-align: center;
+}
+
+.qr {
+    width: 150px;
+    height: 150px;
+}
+/* Estilo para los enlaces */
+a {
+    color: #000000; /* Color negro */
+    text-decoration: none; /* Sin subrayado */
+    font-size: 1.2em;
+}
+
+@font-face {
+    font-family: 'Uncut Sans';
+    src: url('UncutSans-Variable.ttf') format('truetype'); /* Ajusta la ruta según tu estructura de carpetas */
+    font-weight: normal;
+    font-style: normal;
+}
+
+/* Aplicar la tipografía a toda la página */
+body {
+    font-family: 'Uncut Sans', sans-serif;
+}
